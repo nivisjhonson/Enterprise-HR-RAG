@@ -1,0 +1,68 @@
+[
+  {
+    "question": "How do I request annual leave?",
+    "expected_document_ids": ["fictional_leave_policy"],
+    "expected_source_passages": [
+      "Requests should be submitted to the employee's manager before the planned leave dates."
+    ],
+    "expected_answer_facts": [
+      "Submit the request to the manager before the planned leave dates."
+    ],
+    "should_abstain": false,
+    "reviewed": false,
+    "answer_relevant": null,
+    "answer_faithful": null,
+    "citations_correct": null,
+    "abstained": null,
+    "retrieved_document_ids": []
+  },
+  {
+    "question": "How is remote work approved?",
+    "expected_document_ids": ["fictional_remote_work_policy"],
+    "expected_source_passages": [
+      "An employee may request a remote-work arrangement from their manager. The manager reviews the request in light of role requirements, team coverage, and information-security requirements."
+    ],
+    "expected_answer_facts": [
+      "Request the arrangement from the manager; approval depends on role, team coverage, and security requirements."
+    ],
+    "should_abstain": false,
+    "reviewed": false,
+    "answer_relevant": null,
+    "answer_faithful": null,
+    "citations_correct": null,
+    "abstained": null,
+    "retrieved_document_ids": []
+  },
+  {
+    "question": "What receipt should I submit for reimbursement?",
+    "expected_document_ids": ["fictional_reimbursement_policy"],
+    "expected_source_passages": [
+      "Employees should submit a reimbursement request with itemized receipts and a business purpose through the fictional expense portal."
+    ],
+    "expected_answer_facts": [
+      "Submit itemized receipts and the business purpose through the expense portal."
+    ],
+    "should_abstain": false,
+    "reviewed": false,
+    "answer_relevant": null,
+    "answer_faithful": null,
+    "citations_correct": null,
+    "abstained": null,
+    "retrieved_document_ids": []
+  },
+  {
+    "question": "What is the annual leave allowance?",
+    "expected_document_ids": ["fictional_leave_policy"],
+    "expected_source_passages": [
+      "This example does not specify an annual allowance; employees should consult Human Resources for their actual entitlement."
+    ],
+    "expected_answer_facts": [],
+    "should_abstain": true,
+    "reviewed": false,
+    "answer_relevant": null,
+    "answer_faithful": null,
+    "citations_correct": null,
+    "abstained": null,
+    "retrieved_document_ids": []
+  }
+]

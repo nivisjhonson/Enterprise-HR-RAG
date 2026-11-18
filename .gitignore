@@ -1,0 +1,16 @@
+.env
+.venv/
+venv/
+node_modules/
+frontend/dist/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.streamlit/secrets.toml
+vectorstore/
+data/documents/*
+!data/documents/.gitkeep
+data/app.db
+*.sqlite3
+.coverage
+htmlcov/
